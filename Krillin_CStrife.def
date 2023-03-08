@@ -1,0 +1,53 @@
+; Definition file for Krillin by Chrono_Strife
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name = "Krillin"                       ;Name of character
+displayname = "Krillin"                ;Name of character to display
+versiondate = 2015.06.30               ;Version date of character
+mugenversion = 1.1                     ;Version of M.U.G.E.N character works on
+author = "Chrono_Strife"               ;Character author name
+pal.defaults = 1,4,7,10,2,5,8,11       ;Default palettes in order of preference
+
+; Files for the player
+[Files]
+cmd      = coding/KrillinCMD.cmd       ;Command set
+cns      = coding/KrillinCNS.cns       ;Constants
+st       = coding/KrillinCNS.cns       ;States
+st1      = coding/Helper.st            ;Helper States
+st2      = coding/P2Custom.st          ;Custom Hit States
+stcommon = coding/commonCNS.cns        ;Common states
+sprite   = graphical/KrillinSFF.sff    ;Sprite
+anim     = coding/KrillinAIR.air       ;Animation
+;sound    = audio/Krillin_JpnSND.snd    ;Sound - Japanese Voice
+sound    = audio/Krillin_EngSND.snd    ;Sound - English Voice
+
+
+;pal1     = graphical/CSKrillinACT1.act ;Standard Cell Saga Krillin
+;pal2     = graphical/CSKrillinACT2.act ;Red Cell Saga Krillin
+;pal3     = graphical/CSKrillinACT2.act ;Another Cell Saga Krillin
+;pal4     = graphical/SSKrillinACT1.act ;Standard Saiyan Saga Krillin
+;pal5     = graphical/SSKrillinACT1.act ;Standard Saiyan Saga Krillin
+;pal6     = graphical/SSKrillinACT1.act ;Standard Saiyan Saga Krillin
+;pal7     = graphical/BSKrillinACT1.act ;Standard Buu Saga Krillin
+;pal8     = graphical/BSKrillinACT1.act ;Standard Buu Saga Krillin
+;pal9     = graphical/BSKrillinACT1.act ;Standard Buu Saga Krillin
+;pal10     = graphical/BSKrillinACT4.act;Standard Buu Saga Krillin GI
+;pal11     = graphical/BSKrillinACT4.act;Standard Buu Saga Krillin GI
+;pal12     = graphical/BSKrillinACT4.act;Standard Buu Saga Krillin GI
+
+; Maps character selection buttons to palette numbers.
+[Palette Keymap]
+x = 4
+y = 5
+z = 6
+a = 1
+b = 2
+c = 3
+x2 = 10
+y2 = 11
+z2 = 12
+a2 = 7
+b2 = 8
+c2 = 9
